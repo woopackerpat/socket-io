@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
 
 io.use((socket, next) => {
   // authenticate(socket.request, socket.request.res, next);
-
   next()
 });
 
